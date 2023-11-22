@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabupaten Bangli</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Familjen+Grotesk&family=Kdam+Thmor+Pro&family=Marhey:wght@700&family=Paytone+One&family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-md sticky-top mynavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">BalTure</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BalTure</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#budaya">Budaya</a>
+                <a class="nav-link" href="#destinasi">Destinasi</a>
+                <a class="nav-link" href="#kuliner">Kuliner</a>
+                <a class="nav-link" href="#kesenian">Kesenian</a>
+                
+              </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  
+  <div class="header">
+    <h1 class="header1">The Beauty Of Bangli</h1>
+    <p class="header-bangli">Kabupaten Bangli, Provinsi Bali, Indonesia</p>
+    <img src="gb.jpg" alt="" class="bg-img">
+        
+        <!-- \\\\\\ TOMBOL SCROLL /////// -->
+
+    <button id="scrollButton" class="tombol">LIHAT</button>  
+    
+    <script>
+      
+        var scrollButton = document.getElementById('scrollButton');
+        var targetElement = document.querySelector('p');
+        
+        scrollButton.addEventListener('click', function() {
+         
+          window.scroll({
+                top: 1350,
+                behavior: 'smooth' 
+          })
+        });
+        </script>
+    </div>
+
+
+
+   <section id="introblocks">
+     
+        <li class="one_third first">
+          <figure><a class="imgover" href="#"><img src="1.jpg" alt=""></a>
+            <figcaption>
+              <h6 class="hi">Gunung Batur</h6>
+              <div>
+                <p class="p1">Gunung Batur terletak di Kecamatan Kintamani, Bangli</p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><a class="imgover" href="#"><img src="2.jpg" alt=""></a>
+            <figcaption>
+             <h6 class="hi">Desa Trunyan</h6>
+              <div>
+               <p class="p1">Desa Trunyan adalah sebuah desa yang memiliki tradisi pemakaman yang unik</p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><a class="imgover" href="#"><img src="3.jpg" alt=""></a>
+            <figcaption>
+              <h6 class="hi">Danau Batur</h6>
+              <div>
+               <p class="p1">Danau Batur adalah yang berada dekat dengan Gunung Batur</p>
+              </div>
+            
+            </figcaption>
+          </figure>
+        </li>
+     
+    </section>
+
+
+    <!-- <div class="deskripsi">
+    <section class="group">
+      <div class="one_half first"><img class="inspace-15 borderedbox" src="bangli.png" alt="" ></div>
+      <div class="one_half">
+        <ul class="nospace group inspace-15">
+          <li class="">
+            <article>
+              <h6 class="heading"><a href="#">Kabupaten Bangli</a></h6>
+              <p class="">Bangli adalah sebuah wilayah Kabupaten yang terletak di Provinsi Bali, Indonesia. Ibu kotanya adalah Kecamatan Bangli. Kabupaten Bangli adalah satu-satunya Kabupaten di Provinsi Bali yang tidak memiliki wilayah laut atau berbatasan langsung dengan laut, sehingga Bangli tidak memiliki pantai di tepi laut. Kabupaten Bangli memiliki luas 520,8 km²</p>
+            </article>
+          </li>
+        </ul>
+        
+      </div>
+    </section>
+  </div> -->
+
+
+   
+</body>
+</html>
